@@ -20,7 +20,7 @@ The following images shows the web application's appearance and functionality:
 
 ![day-planner](assets/day-planner-2.PNG)
 
-![day-planner](assets/day-planner-3.PNG)
+![day-planner](assets/day-planner-3.png)
 
 ## Deployed Project Location: 
 * Page published at: https://almurawski15.github.io/day-planner/
