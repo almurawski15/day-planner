@@ -7,86 +7,95 @@ console.log(currentTime);
 
 //Saves the user's input of description in each time slot (9-5)
 
-let input9 = document.querySelector("#nine");
-let saveInput9 = document.querySelector("#save9");
+let input9 = document.getElementById("nine");
+let saveInput9 = document.getElementById("save9");
 
 input9.value = localStorage.getItem("content9");
+console.log(localStorage.getItem("content9"));
 save9.addEventListener("click", updateOutput9);
 function updateOutput9() {
     localStorage.setItem("content9", input9.value);
-};
+}
 
-let input10 = document.querySelector("#ten");
-let saveInput10 = document.querySelector("#save10");
+let input10 = document.getElementById("ten");
+let saveInput10 = document.getElementById("save10");
 
 input10.value = localStorage.getItem("content10");
+console.log(localStorage.getItem("content10"));
 save10.addEventListener("click", updateOutput10);
 function updateOutput10() {
     localStorage.setItem("content10", input10.value);
-};
+}
 
-let input11 = document.querySelector("#eleven");
-let saveInput11 = document.querySelector("#save11");
+let input11 = document.getElementById("eleven");
+let saveInput11 = document.getElementById("save11");
 
 input11.value = localStorage.getItem("content11");
+console.log(localStorage.getItem("content11"));
 save11.addEventListener("click", updateOutput11);
 function updateOutput11() {
     localStorage.setItem("content11", input11.value);
-};
+}
 
-let input12 = document.querySelector("#twelve");
-let saveInput12 = document.querySelector("#save12");
+let input12 = document.getElementById("twelve");
+let saveInput12 = document.getElementById("save12");
 
 input12.value = localStorage.getItem("content12");
+console.log(localStorage.getItem("content12"));
 save12.addEventListener("click", updateOutput12);
 function updateOutput12() {
     localStorage.setItem("content12", input12.value);
-};
+}
 
-let input13 = document.querySelector("#thirteen");
-let saveInput13 = document.querySelector("#save13");
+let input13 = document.getElementById("thirteen");
+let saveInput13 = document.getElementById("save13");
 
 input13.value = localStorage.getItem("content13");
+console.log(localStorage.getItem("content13"));
 save13.addEventListener("click", updateOutput13);
 function updateOutput13() {
     localStorage.setItem("content13", input13.value);
-};
+}
 
-let input14 = document.querySelector("#forteen");
-let saveInput14 = document.querySelector("#save14");
+let input14 = document.getElementById("forteen");
+let saveInput14 = document.getElementById("save14");
 
 input14.value = localStorage.getItem("content14");
+console.log(localStorage.getItem("content14"));
 save14.addEventListener("click", updateOutput14);
 function updateOutput14() {
     localStorage.setItem("content14", input14.value);
-};
+}
 
-let input15 = document.querySelector("#fifteen");
-let saveInput15 = document.querySelector("#save15");
+let input15 = document.getElementById("fifteen");
+let saveInput15 = document.getElementById("save15");
 
 input15.value = localStorage.getItem("content15");
+console.log(localStorage.getItem("content15"));
 save15.addEventListener("click", updateOutput15);
 function updateOutput15() {
     localStorage.setItem("content15", input15.value);
-};
+}
 
-let input16 = document.querySelector("#sixteen");
-let saveInput16 = document.querySelector("#save16");
+let input16 = document.getElementById("sixteen");
+let saveInput16 = document.getElementById("save16");
 
 input16.value = localStorage.getItem("content16");
+console.log(localStorage.getItem("content16"));
 save16.addEventListener("click", updateOutput16);
 function updateOutput16() {
     localStorage.setItem("content16", input16.value);
-};
+}
 
-let input17 = document.querySelector("#seventeen");
-let saveInput17 = document.querySelector("#save17");
+let input17 = document.getElementById("seventeen");
+let saveInput17 = document.querySelector("save17");
 
 input17.value = localStorage.getItem("content17");
+console.log(localStorage.getItem("content17"));
 save17.addEventListener("click", updateOutput17);
 function updateOutput17() {
     localStorage.setItem("content17", input17.value);
-};
+}
 
 //Defines the css color variations based on the hour of the day 
 var now = new Date().getHours();
